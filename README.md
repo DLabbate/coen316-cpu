@@ -1,5 +1,5 @@
 # MIPS CPU
-This project consists of the designa and development of a MIPS processor using VHDL. The processor contains 20 instructions divided into three categories: R (register) , I (Immediate) and J (Jump) instructions.
+This project consists of the design and development of a MIPS processor using VHDL. The processor contains 20 instructions divided into three categories: R (register) , I (Immediate) and J (Jump) instructions.
 
 ## Instruction Formats
 <img src="images/instruction-formats.PNG" width="500" align="center">
