@@ -42,4 +42,8 @@ Arithmetic-logic-unit for selecting between addition, subtraction, logical opera
 As discussed previously, Some of the MIPS instructions require that the 16-bit immediate field (stored in bits 0 to 15) of the instruction be sign extended to a full 32-bit width.
 
 ### Data Cache (D-Cache)
-The data cache acts as a small RAM -type of memory. The low order 5 bits of the ALU output are used to address one of 32 locations (each location is 32 bits wide).
+The data cache acts as a small RAM-type of memory. The low order 5 bits of the ALU output are used to address one of 32 locations (each location is 32 bits wide).
+
+## Additional Notes
+* The datapath was fulfilled using VHDL components and port mapping
+* VHDL signals were used for the interconnection between these components
